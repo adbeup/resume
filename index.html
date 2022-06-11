@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
     <title>Resume Bogdan Semeniuk</title>
 </head>
 
 <body>
     <!--main-->
-    <div>
+    <div class="main">
         <!--main conttent-->
-        <div>
+        <div class="main-content">
             <!--about user-->
-            <div>
+            <section class="about">
                 <h2>Editor | Journalist</h2>
                 <h1>Bogdan Semeniuk</h1>
                 <p>Future web developer. My superpower - fast learning. My TV career confirms this. Without the necessary experience and education, in two years I grew from small regional TV presenter to the editor of the largest Ukrainian TV channel.</p>
-            </div>
+            </section>
             <!--project-->
-            <div>
+            <section class="project">
                 <h3>Projects</h3>
                 <ol>
                     <li>
@@ -33,15 +37,15 @@
                         <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>..................[ React.js, Node.js ]
                     </li>
                 </ol>
-            </div>
+            </section>
             <!--work-->
-            <div>
+            <section class="work">
                 <h3>Work Experience</h3>
                 <!--compani 1-->
 
                 <div>
-                    <h4>Editor</h4>
-                    <p>March 2021 - up to now | 1+1 media</p>
+                    <h4>Editor <span>1+1 media</span></h4>
+                    <p>March 2021 - up to now | Kyiv</p>
                     <ul>
                         <li>Search and development of relevant topics for the target audience of the channel.</li>
                         <li>Distribution and control over the timing and quality of work.</li>
@@ -52,8 +56,8 @@
                 <!--compani 2-->
 
                 <div>
-                    <h4>TV journalist</h4>
-                    <p>August 2020 - December 2020 | TV channel "Ukraine"</p>
+                    <h4>TV journalist <span>TV channel "Ukraine"</span></h4>
+                    <p>August 2020 - December 2020 | Kyiv</p>
                     <ul>
                         <li>Search and development of relevant topics for the target audience of the channel.</li>
                         <li>Writing news: from filming to publishing it on the TV.</li>
@@ -62,68 +66,90 @@
                 </div>
                 <!--compani 3-->
                 <div>
-                    <h4>TV presenter</h4>
-                    <p>May 2019 - February 2020 | Suspilne.media</p>
+                    <h4>TV presenter <span>Suspilne.media</span></h4>
+                    <p>May 2019 - February 2020 | Khmelnytsky</p>
                     <ul>
                         <li>Search and development of relevant topics.</li>
                         <li>Full development of the live broadcast script.</li>
                         <li>Broadcasting as a TV presenter.</li>
                     </ul>
                 </div>
-            </div>
+            </section>
             <!--Education-->
-            <div>
+            <section class="education">
                 <h3>Education</h3>
                 <div>
-                    <h4>Khmelnytsky Cooperative College of Economic</h4>
+                    <h4 class="vnz">Khmelnytsky Cooperative College of Economic</h4>
                     <h4>Finance and Credit</h4>
                     <p>September 2009 - June 2012 | Junior Specialist</p>
                 </div>
                 <div>
-                    <h4>St. John's University</h4>
+                    <h4 class="vnz">St. John's University</h4>
                     <h4>Philosophy</h4>
                     <p>September 2012 - June 2017 | Bachelor</p>
                 </div>
 
-            </div>
-            <!--sidebar-->
-            <aside>
-                <img width="300" src="img/bogdansem.jpg" alt="Bogdan Semeniuk photo">
-                <!--contact-->
-                <div>
-                    <h3>Contacts</h3>
-                    <div>
-                        <p>
-                            C:<a href="tel:+380963467349">+380 (96) 346 73 49</a>
-                        </p>
-                        <p>
-                            E:<a href="mailto:adbeup@gmail.com">adbeup@gmail.com</a>
-                        </p>
-
-                    </div>
-                </div>
-                <!--techskills-->
-                <div>
-                    <h3>Tech Skills</h3>
-                    <ul>
-                        <li>Open Media</li>
-                        <li>Microsoft office</li>
-                        <li>Photoshop</li>
-                        <li>Lighttroom</li>
-                        <li>iMovie</li>
-                    </ul>
-                </div>
-                <!--softckill-->
-                <div>
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Copywriting</li>
-                        <li>SMM</li>
-                        <li>Targeting</li>
-                    </ul>
-                </div>
-            </aside>
+            </section>
         </div>
+        <!--sidebar-->
+        <aside class="sidebar">
+            <img class="Bogdan" width="370" src="img/bogdansem.jpg" alt="Bogdan Semeniuk photo">
+            <!--contact-->
+            <section class="contact">
+                <h3 class="white">Contacts</h3>
+                <div>
+                    <p>
+                        <span class="contakt-type">C:</span> <a href="tel:+380963467349" class="contakt-link">+380 (96) 346 73 49</a>
+                    </p>
+                    <p>
+                        <span class="contakt-type">E:</span> <a href="mailto:adbeup@gmail.com" class="contakt-link">adbeup@gmail.com</a>
+                    </p>
+
+                </div>
+            </section>
+            <!--techskills-->
+            <section class="skills">
+                <h3 class="white">Tech Skills</h3>
+                <ul class="white-skills">
+                    <li class="dot-skills"> <span class="text-skills">Open Media</span> </li>
+                    <li class="dot-skills"><span class="text-skills">Microsoft office</span></li>
+                    <li class="dot-skills"><span class="text-skills">Photoshop</span></li>
+                    <li class="dot-skills"><span class="text-skills">Lighttroom</span></li>
+                    <li class="dot-skills"><span class="text-skills">iMovie</span></li>
+                    <li class="dot-skills"><span class="text-skills">Copywriting</span></li>
+                    <li class="dot-skills"><span class="text-skills">SMM</span></li>
+                    <li class="dot-skills"><span class="text-skills">Targeting</span></li>
+                </ul>
+            </section>
+            <!--softckill-->
+            <section class="skills ">
+                <h3 class="white ">Soft Skills</h3>
+                <ul class="white-skills">
+                    <li class="dot-skills"><span class="text-skills">Teamwork</span></li>
+                    <li class="dot-skills"><span class="text-skills">Focus on results</span></li>
+                    <li class="dot-skills"><span class="text-skills">Learnability</span></li>
+                    <li class="dot-skills"><span class="text-skills">Ability to adapt</span></li>
+                    <li class="dot-skills"><span class="text-skills">Time management</span></li>
+                </ul>
+            </section>
+            <!--social-->
+            <div class="social">
+
+                <div>
+                    <a href="https://www.facebook.com/adbeup " target="_blank "> <img width="15 " src="/social/f_logo_RGB-White_1024.png " alt="facebook ">
+                </div>
+                <div class="icon">
+                    <a href="https://instagram.com/adbeup " target="_blank "> <img width="15 " src="/social/Instagram_Glyph_White.png " alt="instagram ">
+                </div>
+                <div class="icon">
+                    <a href="https://t.me/adbeup " target="_blank "> <img width="15 " src="/social/telegram.png " alt="telegram ">
+                </div>
+                <div class="icon">
+                    <a href="https://www.tiktok.com/@bogdan_sem " target="_blank "> <img width="12 " src="/social/tiktok.png " alt="tiktok ">
+                </div>
+            </div>
+        </aside>
+    </div>
 </body>
 
 </html>
