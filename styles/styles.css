@@ -214,6 +214,7 @@
     }
     
     .contact,
+    .social,
     .skills {
         margin: 50px 147px 50px 40px;
     }
@@ -254,9 +255,6 @@
     }
     
     .social {
-        margin-left: 40px;
-        margin-bottom: 40px;
-        width: 100%;
         display: flex;
     }
     
@@ -267,7 +265,20 @@
     
     @media (max-width: 970px) {
         .main-content {
-            padding: 60px 15px 20px;
+            padding: 19px 0 15px 30px;
+        }
+        .sidebar {
+            max-width: 300px;
+            width: 100%;
+        }
+        .bogdan {
+            max-width: 300px;
+            width: 100%;
+        }
+        .contact,
+        .social,
+        .skills {
+            margin: 19px 0 15px 30px;
         }
     }
     
@@ -285,11 +296,9 @@
             line-height: 5px;
         }
         .contact,
+        .social,
         .skills {
             margin: 20px 20px 20px 20px;
-        }
-        .social {
-            margin-left: 20px;
         }
         .main-content {
             padding: 50px 15px 15px;
@@ -298,7 +307,7 @@
     
     @media (max-width: 821px) {
         .media-span {
-            font-size: 4px;
+            font-size: 9px;
         }
     }
     
@@ -334,7 +343,6 @@
         .media-two {
             max-width: 310px;
             width: 100%;
-            ;
         }
         .white {
             padding-top: 5px;
