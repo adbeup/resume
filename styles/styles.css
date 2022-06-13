@@ -399,7 +399,9 @@ body {
     .projekt-span,
     .media-span,
     .project-braket,
-    .text-skills {
+    .text-skills,
+    .work-slesh,
+    .educcation-slesh {
         font-size: 13px;
         line-height: 20px;
     }
@@ -409,9 +411,13 @@ body {
         line-height: 24px;
         margin-bottom: 5px;
     }
+    .work-p {
+        margin-bottom: 5px;
+    }
     .work_position,
     .edcation-name,
-    .work-span {
+    .work-span,
+    .education-position {
         font-size: 14px;
         line-height: 18px;
         margin-top: 5px;
@@ -468,7 +474,9 @@ body {
     .projekt-span,
     .media-span,
     .project-braket,
-    .text-skills {
+    .text-skills,
+    .work-slesh,
+    .educcation-slesh {
         font-size: 12px;
         line-height: 18px;
     }
@@ -480,10 +488,14 @@ body {
     }
     .work_position,
     .edcation-name,
-    .work-span {
+    .work-span,
+    .education-position {
         font-size: 12px;
         line-height: 18px;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
+    }
+    .work-p {
+        margin-bottom: 3px;
     }
 }
