@@ -395,7 +395,11 @@ body {
     .project-item,
     .project-braket,
     .contakt-type,
-    .white-skills {
+    .white-skills,
+    .projekt-span,
+    .media-span,
+    .project-braket,
+    .text-skills {
         font-size: 13px;
         line-height: 20px;
     }
@@ -406,7 +410,8 @@ body {
         margin-bottom: 5px;
     }
     .work_position,
-    .edcation-name {
+    .edcation-name,
+    .work-span {
         font-size: 14px;
         line-height: 18px;
         margin-top: 5px;
@@ -459,7 +464,11 @@ body {
     .project-item,
     .project-braket,
     .contakt-type,
-    .white-skills {
+    .white-skills,
+    .projekt-span,
+    .media-span,
+    .project-braket,
+    .text-skills {
         font-size: 12px;
         line-height: 18px;
     }
@@ -470,7 +479,8 @@ body {
         margin-bottom: 5px;
     }
     .work_position,
-    .edcation-name {
+    .edcation-name,
+    .work-span {
         font-size: 12px;
         line-height: 18px;
         margin-top: 5px;
